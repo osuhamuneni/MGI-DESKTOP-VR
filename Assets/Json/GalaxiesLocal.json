@@ -1,0 +1,62 @@
+{
+  "Galaxy": [
+    {
+      "Name": "Galaxy01",
+      "PathsAndSettings": [
+        {
+          "path": "Assets/FITS/virgo galaxy fits files/m61/frame-r-005402-2-0026.fits",
+          "BrightnessMultiplier": 1.0,
+          "XMultiplier": 1.0,
+          "YMultiplier": 0.0,
+          "ZMultiplier": 0.0,
+          "LowBoost": 5.0
+        },
+        {
+          "path": "Assets/FITS/virgo galaxy fits files/m61/frame-r-005402-2-0026.fits",
+          "BrightnessMultiplier": 2.0,
+          "XMultiplier": 0.0,
+          "YMultiplier": 2.0,
+          "ZMultiplier": 0.0,
+          "LowBoost": 5.0
+        },
+        {
+          "path": "Assets/FITS/virgo galaxy fits files/m61/frame-r-005402-2-0026.fits",
+          "BrightnessMultiplier": 3.0,
+          "XMultiplier": 0.0,
+          "YMultiplier": 0.0,
+          "ZMultiplier": 3.0,
+          "LowBoost": 5.0
+        }
+      ]
+    },
+    {
+      "Name": "Galaxy02",
+      "PathsAndSettings": [
+        {
+          "path": "Assets/FITS/virgo galaxy fits files/m61/frame-r-005402-2-0026.fits",
+          "BrightnessMultiplier": 3.0,
+          "XMultiplier": 3.0,
+          "YMultiplier": 0.0,
+          "ZMultiplier": 0.0,
+          "LowBoost": 5.0
+        },
+        {
+          "path": "Assets/FITS/virgo galaxy fits files/m61/frame-r-005402-2-0026.fits",
+          "BrightnessMultiplier": 3.0,
+          "XMultiplier": 0.0,
+          "YMultiplier": 3.0,
+          "ZMultiplier": 0.0,
+          "LowBoost": 5.0
+        },
+        {
+          "path": "Assets/FITS/virgo galaxy fits files/m61/frame-r-005402-2-0026.fits",
+          "BrightnessMultiplier": 3.0,
+          "XMultiplier": 0.0,
+          "YMultiplier": 0.0,
+          "ZMultiplier": 3.0,
+          "LowBoost": 5.0
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+{
+  "Galaxy": [
+    {
+      "Name": "Galaxy01",
+      "PathsAndSettings": [
+        {
+          "path": "https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4570/4/frame-r-004570-4-0135.fits.bz2",
+          "BrightnessMultiplier": 1.0,
+          "XMultiplier": 1.0,
+          "YMultiplier": 0.0,
+          "ZMultiplier": 0.0,
+          "LowBoost": 5.0
+        },
+        {
+          "path": "https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4570/4/frame-r-004570-4-0135.fits.bz2",
+          "BrightnessMultiplier": 2.0,
+          "XMultiplier": 0.0,
+          "YMultiplier": 2.0,
+          "ZMultiplier": 0.0,
+          "LowBoost": 5.0
+        },
+        {
+          "path": "https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4570/4/frame-r-004570-4-0135.fits.bz2",
+          "BrightnessMultiplier": 3.0,
+          "XMultiplier": 0.0,
+          "YMultiplier": 0.0,
+          "ZMultiplier": 3.0,
+          "LowBoost": 5.0
+        }
+      ]
+    },
+    {
+      "Name": "Galaxy02",
+      "PathsAndSettings": [
+        {
+          "path": "https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4570/4/frame-r-004570-4-0135.fits.bz2",
+          "BrightnessMultiplier": 3.0,
+          "XMultiplier": 3.0,
+          "YMultiplier": 0.0,
+          "ZMultiplier": 0.0,
+          "LowBoost": 5.0
+        },
+        {
+          "path": "https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4570/4/frame-r-004570-4-0135.fits.bz2",
+          "BrightnessMultiplier": 3.0,
+          "XMultiplier": 0.0,
+          "YMultiplier": 3.0,
+          "ZMultiplier": 0.0,
+          "LowBoost": 5.0
+        },
+        {
+          "path": "https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4570/4/frame-r-004570-4-0135.fits.bz2",
+          "BrightnessMultiplier": 3.0,
+          "XMultiplier": 0.0,
+          "YMultiplier": 0.0,
+          "ZMultiplier": 3.0,
+          "LowBoost": 5.0
+        }
+      ]
+    }
+  ]
+}
