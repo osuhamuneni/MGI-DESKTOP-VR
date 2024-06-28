@@ -1,0 +1,20 @@
+{
+    "name": "LeTai.TranslucentImage",
+    "rootNamespace": "",
+    "references": [
+        "GUID:7ab3663edede26740845931880bf22af"
+    ],
+    "includePlatforms": [
+        "Editor",
+        "WindowsStandalone32",
+        "WindowsStandalone64"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
