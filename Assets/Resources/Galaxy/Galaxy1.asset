@@ -1,0 +1,43 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c3b2f120915bec44a86c6bff22689c10, type: 3}
+  m_Name: Galaxy1
+  m_EditorClassIdentifier: 
+  data:
+    dataName: Galaxy1
+    data:
+    - header: Galaxy
+      data: Galaxy1
+    - header: Name_UI
+      data: MESSIER100
+    - header: uband
+      data: https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4381/5/frame-u-004381-5-0099.fits.bz2
+    - header: gband
+      data: https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4381/5/frame-g-004381-5-0099.fits.bz2
+    - header: rband
+      data: https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4381/5/frame-r-004381-5-0099.fits.bz2
+    - header: iband
+      data: https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4381/5/frame-i-004381-5-0099.fits.bz2
+    - header: zband
+      data: https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/4381/5/frame-z-004381-5-0099.fits.bz2
+    - header: equatorialCoord_UI
+      data: 185.728463; 15.821818
+    - header: radialVelocity_UI
+      data: V(km/s) 10.0 [1.4]
+    - header: luminosity_UI
+      data: 8.17 mag
+    - header: angularSize_UI
+      data: 5.05 5.05 90 (~)
+    - header: 
+      data: 
+    - header: "Camera\r"
+      data: "Rotate\r"
