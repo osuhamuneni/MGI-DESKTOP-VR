@@ -1,0 +1,452 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5444796897890560720
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4666887286763958378}
+  - component: {fileID: 8605190142163238863}
+  - component: {fileID: 5804913001429846789}
+  - component: {fileID: 5138224819025932739}
+  - component: {fileID: 5138224819025932738}
+  - component: {fileID: 5138224819025932743}
+  - component: {fileID: 5138224819025932733}
+  m_Layer: 0
+  m_Name: GalaxyPrefabBaseOnly
+  m_TagString: Galaxy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4666887286763958378
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444796897890560720}
+  m_LocalRotation: {x: -0.7071068, y: -0, z: 0, w: 0.7071068}
+  m_LocalPosition: {x: -428.91, y: -29.01, z: 255.24002}
+  m_LocalScale: {x: 2, y: 5, z: 2}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
+--- !u!33 &8605190142163238863
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444796897890560720}
+  m_Mesh: {fileID: 3613567641014311022, guid: a689c7512de9cef40a9a400e19940c96, type: 3}
+--- !u!23 &5804913001429846789
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444796897890560720}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ff33a8ec18f357c4187e8deb7ae225df, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &5138224819025932739
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444796897890560720}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3613567641014311022, guid: a689c7512de9cef40a9a400e19940c96, type: 3}
+--- !u!114 &5138224819025932738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444796897890560720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192811f9cca650d47a557c784a4a5409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isLoadOnStart: 1
+  ImageData:
+  - Path: Assets/FITS/virgo galaxy fits files/m86/frame-r-003804-5-0192.fits
+    colorBand: 0
+    Settings:
+      SourceMode: 1
+      BlendingMode: 0
+      Offset: {x: 0, y: 0}
+      Multiplier: 6
+      PowerType: 0
+      Denoise: 0
+      ThresholdSettings:
+        ThresholdType: 0
+        ThresholdBlendMode: 0
+        ThresholdColor: {r: 0, g: 0, b: 0, a: 0}
+        Threshold: 0.1
+      ColorizeMode: 0
+      RGBMultiplier: {x: 3, y: 0, z: 0}
+      Remap:
+        RedMin: 0
+        RedMax: 0
+        GreenMin: 0
+        GreenMax: 0
+        BlueMin: 0
+        BlueMax: 0
+      ColorGradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      MultiplyWithBrightness: 0
+      GradientMultiplier: 0
+      Hue: 0
+      LowBoost: 11
+      BoostMode: 1
+  - Path: Assets/FITS/virgo galaxy fits files/m86/frame-g-003804-5-0192.fits
+    colorBand: 0
+    Settings:
+      SourceMode: 1
+      BlendingMode: 0
+      Offset: {x: 0, y: 0}
+      Multiplier: 6
+      PowerType: 0
+      Denoise: 0
+      ThresholdSettings:
+        ThresholdType: 0
+        ThresholdBlendMode: 0
+        ThresholdColor: {r: 0, g: 0, b: 0, a: 0}
+        Threshold: 0.1
+      ColorizeMode: 0
+      RGBMultiplier: {x: 0, y: 3, z: 0}
+      Remap:
+        RedMin: 0
+        RedMax: 0
+        GreenMin: 0
+        GreenMax: 0
+        BlueMin: 0
+        BlueMax: 0
+      ColorGradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      MultiplyWithBrightness: 0
+      GradientMultiplier: 0
+      Hue: 0
+      LowBoost: 11
+      BoostMode: 1
+  - Path: Assets/FITS/virgo galaxy fits files/m86/frame-i-003804-5-0192.fits
+    colorBand: 0
+    Settings:
+      SourceMode: 1
+      BlendingMode: 0
+      Offset: {x: 0, y: 0}
+      Multiplier: 6
+      PowerType: 0
+      Denoise: 0
+      ThresholdSettings:
+        ThresholdType: 0
+        ThresholdBlendMode: 0
+        ThresholdColor: {r: 0, g: 0, b: 0, a: 0}
+        Threshold: 0.1
+      ColorizeMode: 0
+      RGBMultiplier: {x: 0, y: 0, z: 3}
+      Remap:
+        RedMin: 0
+        RedMax: 0
+        GreenMin: 0
+        GreenMax: 0
+        BlueMin: 0
+        BlueMax: 0
+      ColorGradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      MultiplyWithBrightness: 0
+      GradientMultiplier: 0
+      Hue: 0
+      LowBoost: 11
+      BoostMode: 1
+  - Path: Assets/FITS/virgo galaxy fits files/m86/frame-i-003804-5-0192.fits
+    colorBand: 0
+    Settings:
+      SourceMode: 1
+      BlendingMode: 0
+      Offset: {x: 0, y: 0}
+      Multiplier: 6
+      PowerType: 0
+      Denoise: 0
+      ThresholdSettings:
+        ThresholdType: 0
+        ThresholdBlendMode: 0
+        ThresholdColor: {r: 0, g: 0, b: 0, a: 0}
+        Threshold: 0.1
+      ColorizeMode: 0
+      RGBMultiplier: {x: 0, y: 0, z: 3}
+      Remap:
+        RedMin: 0
+        RedMax: 0
+        GreenMin: 0
+        GreenMax: 0
+        BlueMin: 0
+        BlueMax: 0
+      ColorGradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      MultiplyWithBrightness: 0
+      GradientMultiplier: 0
+      Hue: 0
+      LowBoost: 11
+      BoostMode: 1
+  - Path: Assets/FITS/virgo galaxy fits files/m86/frame-i-003804-5-0192.fits
+    colorBand: 0
+    Settings:
+      SourceMode: 1
+      BlendingMode: 0
+      Offset: {x: 0, y: 0}
+      Multiplier: 6
+      PowerType: 0
+      Denoise: 0
+      ThresholdSettings:
+        ThresholdType: 0
+        ThresholdBlendMode: 0
+        ThresholdColor: {r: 0, g: 0, b: 0, a: 0}
+        Threshold: 0.1
+      ColorizeMode: 0
+      RGBMultiplier: {x: 0, y: 0, z: 3}
+      Remap:
+        RedMin: 0
+        RedMax: 0
+        GreenMin: 0
+        GreenMax: 0
+        BlueMin: 0
+        BlueMax: 0
+      ColorGradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      MultiplyWithBrightness: 0
+      GradientMultiplier: 0
+      Hue: 0
+      LowBoost: 11
+      BoostMode: 1
+  rgbMultiplierBackups: []
+  WrapMode: 0
+  objectToInstatiate: {fileID: 5444796897890560720}
+  scale: 20
+  textureSource: 1
+  fitsTexture: {fileID: 0}
+  Colorize: {fileID: 7200000, guid: 2e57680ea94e45941a13b0309ee590f8, type: 3}
+  Offset: {fileID: 7200000, guid: 42a116da2d2ae3a4081a477c71e2e7a3, type: 3}
+  Combine: {fileID: 7200000, guid: a71e59f420ed33444a077430d8715e4a, type: 3}
+  remap: {fileID: 7200000, guid: d45d825aad3841b43991df33f2e20709, type: 3}
+  DarkenShader: {fileID: 7200000, guid: 5904fb9d150299e4fa72e1e5188aa86d, type: 3}
+  loading: 0
+  firstTimeLoad: 1
+  loadTexture: {fileID: 0}
+  fitsPath: 
+--- !u!114 &5138224819025932743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444796897890560720}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20ab34f1e0f5e44eb4f4d8cb7782e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  galaxyData: {fileID: 11400000, guid: 9dbafcb5a4eb55e4680f3570899e7ffc, type: 2}
+--- !u!114 &5138224819025932733
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5444796897890560720}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1d7255ebb6205b145bb4aa5a44aa42b9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RA: 0
+  DE: 0
+  PI_DBL: 22
+  TextureScale: {x: 1, y: 1}
+  originalPosition: {x: 0, y: 0, z: 0}
+  oPosition: {x: 0, y: 0, z: 0}
+  originalRotation: {x: 0, y: 0, z: 0, w: 0}
+  originalScale: {x: 0, y: 0, z: 0}
+  uiRawImage: {fileID: 0}
+  resultTexture: {fileID: 0}
