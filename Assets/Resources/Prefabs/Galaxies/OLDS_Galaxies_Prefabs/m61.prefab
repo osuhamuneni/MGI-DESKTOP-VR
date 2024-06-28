@@ -1,0 +1,434 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1081076530750007953
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 309360571116810283}
+  - component: {fileID: 3739336076958039950}
+  - component: {fileID: 1441219020911151940}
+  - component: {fileID: 270682934422172466}
+  - component: {fileID: 270682934422172464}
+  - component: {fileID: 270682934422172478}
+  m_Layer: 0
+  m_Name: m61
+  m_TagString: Galaxy
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &309360571116810283
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081076530750007953}
+  m_LocalRotation: {x: 0.094729215, y: -0.38195553, z: 0.77691317, w: 0.49146962}
+  m_LocalPosition: {x: -3.74, y: 5.97, z: -16.14}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 136.638, y: 881.703, z: 288.039}
+--- !u!33 &3739336076958039950
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081076530750007953}
+  m_Mesh: {fileID: 3613567641014311022, guid: 92e6845952cef1d4d8ee9e93297f81f2, type: 3}
+--- !u!23 &1441219020911151940
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081076530750007953}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: fa59202e2732bc147871c0c270b900ba, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &270682934422172466
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081076530750007953}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 4
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 3613567641014311022, guid: a689c7512de9cef40a9a400e19940c96, type: 3}
+--- !u!114 &270682934422172464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081076530750007953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 192811f9cca650d47a557c784a4a5409, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  GalaxyCameraFocus: 0
+  isLoadOnStart: 1
+  ImageData:
+  - Path: https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/5402/2/frame-r-005402-2-0026.fits.bz2
+    isEnabled: 1
+    colorBand: 0
+    Settings:
+      SourceMode: 1
+      BlendingMode: 0
+      Offset: {x: 0, y: 0}
+      Multiplier: 3
+      PowerType: 0
+      Denoise: 0
+      ThresholdSettings:
+        ThresholdType: 0
+        ThresholdBlendMode: 0
+        ThresholdColor: {r: 0, g: 0, b: 0, a: 0}
+        Threshold: 0.1
+      ColorizeMode: 0
+      RGBMultiplier: {x: 1.5, y: 0, z: 0}
+      Remap:
+        RedMin: 0
+        RedMax: 0
+        GreenMin: 0
+        GreenMax: 0
+        BlueMin: 0
+        BlueMax: 0
+      ColorGradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      MultiplyWithBrightness: 0
+      GradientMultiplier: 0
+      Hue: 0
+      LowBoost: 22
+      BoostMode: 1
+  - Path: https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/5402/2/frame-g-005402-2-0026.fits.bz2
+    isEnabled: 1
+    colorBand: 1
+    Settings:
+      SourceMode: 1
+      BlendingMode: 0
+      Offset: {x: 0, y: 0}
+      Multiplier: 4
+      PowerType: 0
+      Denoise: 0
+      ThresholdSettings:
+        ThresholdType: 0
+        ThresholdBlendMode: 0
+        ThresholdColor: {r: 0, g: 0, b: 0, a: 0}
+        Threshold: 0.1
+      ColorizeMode: 0
+      RGBMultiplier: {x: 0, y: 1.5, z: 0}
+      Remap:
+        RedMin: 0
+        RedMax: 0
+        GreenMin: 0
+        GreenMax: 0
+        BlueMin: 0
+        BlueMax: 0
+      ColorGradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      MultiplyWithBrightness: 0
+      GradientMultiplier: 0
+      Hue: 0
+      LowBoost: 22
+      BoostMode: 1
+  - Path: https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/5402/2/frame-i-005402-2-0026.fits.bz2
+    isEnabled: 1
+    colorBand: 2
+    Settings:
+      SourceMode: 1
+      BlendingMode: 0
+      Offset: {x: 0, y: 0}
+      Multiplier: 4
+      PowerType: 0
+      Denoise: 0
+      ThresholdSettings:
+        ThresholdType: 0
+        ThresholdBlendMode: 0
+        ThresholdColor: {r: 0, g: 0, b: 0, a: 0}
+        Threshold: 0.1
+      ColorizeMode: 0
+      RGBMultiplier: {x: 0, y: 0, z: 1.5}
+      Remap:
+        RedMin: 0
+        RedMax: 0
+        GreenMin: 0
+        GreenMax: 0
+        BlueMin: 0
+        BlueMax: 0
+      ColorGradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      MultiplyWithBrightness: 0
+      GradientMultiplier: 0
+      Hue: 0
+      LowBoost: 22
+      BoostMode: 1
+  - Path: https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/5402/2/frame-u-005402-2-0026.fits.bz2
+    isEnabled: 0
+    colorBand: 3
+    Settings:
+      SourceMode: 1
+      BlendingMode: 0
+      Offset: {x: 0, y: 0}
+      Multiplier: 4
+      PowerType: 0
+      Denoise: 0
+      ThresholdSettings:
+        ThresholdType: 0
+        ThresholdBlendMode: 0
+        ThresholdColor: {r: 0, g: 0, b: 0, a: 0}
+        Threshold: 0.1
+      ColorizeMode: 0
+      RGBMultiplier: {x: 0, y: 0, z: 1.5}
+      Remap:
+        RedMin: 0
+        RedMax: 0
+        GreenMin: 0
+        GreenMax: 0
+        BlueMin: 0
+        BlueMax: 0
+      ColorGradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      MultiplyWithBrightness: 0
+      GradientMultiplier: 0
+      Hue: 0
+      LowBoost: 22
+      BoostMode: 1
+  - Path: https://dr12.sdss.org/sas/dr12/boss/photoObj/frames/301/5402/2/frame-z-005402-2-0026.fits.bz2
+    isEnabled: 0
+    colorBand: 4
+    Settings:
+      SourceMode: 1
+      BlendingMode: 0
+      Offset: {x: 0, y: 0}
+      Multiplier: 4
+      PowerType: 0
+      Denoise: 0
+      ThresholdSettings:
+        ThresholdType: 0
+        ThresholdBlendMode: 0
+        ThresholdColor: {r: 0, g: 0, b: 0, a: 0}
+        Threshold: 0.1
+      ColorizeMode: 0
+      RGBMultiplier: {x: 0, y: 0, z: 1.5}
+      Remap:
+        RedMin: 0
+        RedMax: 0
+        GreenMin: 0
+        GreenMax: 0
+        BlueMin: 0
+        BlueMax: 0
+      ColorGradient:
+        serializedVersion: 2
+        key0: {r: 0, g: 0, b: 0, a: 0}
+        key1: {r: 0, g: 0, b: 0, a: 0}
+        key2: {r: 0, g: 0, b: 0, a: 0}
+        key3: {r: 0, g: 0, b: 0, a: 0}
+        key4: {r: 0, g: 0, b: 0, a: 0}
+        key5: {r: 0, g: 0, b: 0, a: 0}
+        key6: {r: 0, g: 0, b: 0, a: 0}
+        key7: {r: 0, g: 0, b: 0, a: 0}
+        ctime0: 0
+        ctime1: 65535
+        ctime2: 0
+        ctime3: 0
+        ctime4: 0
+        ctime5: 0
+        ctime6: 0
+        ctime7: 0
+        atime0: 0
+        atime1: 65535
+        atime2: 0
+        atime3: 0
+        atime4: 0
+        atime5: 0
+        atime6: 0
+        atime7: 0
+        m_Mode: 0
+        m_NumColorKeys: 2
+        m_NumAlphaKeys: 2
+      MultiplyWithBrightness: 0
+      GradientMultiplier: 0
+      Hue: 0
+      LowBoost: 22
+      BoostMode: 1
+  m_imageDataBckList: []
+  WrapMode: 0
+  objectToInstatiate: {fileID: 1081076530750007953}
+  scale: 20
+  fitsTexture: {fileID: 0}
+  Colorize: {fileID: 7200000, guid: 2e57680ea94e45941a13b0309ee590f8, type: 3}
+  Offset: {fileID: 7200000, guid: 42a116da2d2ae3a4081a477c71e2e7a3, type: 3}
+  Combine: {fileID: 7200000, guid: a71e59f420ed33444a077430d8715e4a, type: 3}
+  remap: {fileID: 7200000, guid: d45d825aad3841b43991df33f2e20709, type: 3}
+  DarkenShader: {fileID: 7200000, guid: 5904fb9d150299e4fa72e1e5188aa86d, type: 3}
+  GalaxyCutShader: {fileID: 4800000, guid: 71cd28b8c63838e4c8a1ca8190da561a, type: 3}
+  loadFromPath: 0
+  loadTexture: {fileID: 0}
+  fitsPath: 
+--- !u!114 &270682934422172478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1081076530750007953}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a20ab34f1e0f5e44eb4f4d8cb7782e2c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  galaxyData: {fileID: 11400000, guid: 9dbafcb5a4eb55e4680f3570899e7ffc, type: 2}
